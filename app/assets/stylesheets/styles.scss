@@ -18,13 +18,18 @@ h1 {
   }
 }
 
-img {
+.logo {
   margin-top: 40px; 
+}
 
-  &.img-center {
-    margin: 0 auto;
-  }
+.arrow {
+  max-width: 150px;
+  margin-top: -25px;
+  margin-right: 10px;
+}
 
+.arrow-container {
+  margin-top: -30px;
 }
 
 .btn-primary {
