@@ -1,12 +1,15 @@
 html, body {
   font-family: "Open Sans", arial;
   color: #fff;
+  height: 100%;
+  min-height: 100%;
 }
 
 .main-container {
   background: asset-url('symp-bg.jpg') no-repeat top center;
   background-size: cover;
   padding: 0;
+  min-height: 100%;
 }
 
 h1 {
@@ -38,14 +41,14 @@ h1 {
   font-weight: 600;
   background-color: transparent;
   text-transform: uppercase;
-  border: 2px solid #F15725;
+  border: 2px solid #0092CC;
   border-radius: 15px;
   text-transform: uppercase;
   color: #fff;
 
   &:hover, &:active, &:focus {
-    background-color: #F15725;
-    border: 2px solid #F15725; 
+    background-color: #0092CC;
+    border: 2px solid #0092CC; 
     color: #ffffff;
   }
 }
